@@ -10,6 +10,20 @@ package sistemagestion;
  */
 public class Cliente {
     
-    
+    private String rut;
+    private String nombre;
+    private int edad;
+    private Date fechaNacimiento;
+
+    public Cliente(){
+        
+    }
+
+    public Cliente(String rut, String nombre, int rut, Date fechaNacimiento){
+
+        this.nombre = 
+        
+    }
     
 }
+
