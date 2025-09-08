@@ -26,6 +26,10 @@ public class SistemaGestion {
 
         Cliente cliente1 = new Cliente();
 
+        //objeto venderor
+
+        Vendedor vendedor1 = new Vendedor();
+
         
         do{
             System.out.println("-- SISTEMA DE GESTION --");
@@ -60,10 +64,13 @@ public class SistemaGestion {
                 case 2:
 
                     System.out.println("-- INGRESO DE DOCENTE --")
-                        System.out.println("")
-                        System.out.println("-- INGRESO DE CLIENTE --")
+                    System.out.println("ingrse rut del vendedor: ")
+                    lectura = leer.next();    
+                    vendedor1.setRut(lectura);
+                        
+                    System.out.println("Ingrese nr vendeor ")
 
-                        System.out.println("-- INGRESO DE CLIENTE --")
+                     System.out.println("-- INGRESO DE CLIENTE --")
                         
                         
                     
@@ -91,4 +98,5 @@ public class SistemaGestion {
     }
     
 }
+
 
